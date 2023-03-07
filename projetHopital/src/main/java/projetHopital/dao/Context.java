@@ -19,8 +19,12 @@ public class Context {
 	public static DaoPatient getDaoPatient() {
 		return daoPatient;
 	}
-
 	
+	private static DaoCompte daoCompte=new DaoCompteImpl();
+	public static DaoCompte getDaoCompte() {
+		return daoCompte;
+	}
+
 	
 	
 	private static Context singleton=null;

@@ -1,0 +1,10 @@
+#maven
+target/
+
+.classpath
+.project
+.settings/
+
+.vscode
+
+.DS_Store
