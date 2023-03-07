@@ -1,6 +1,6 @@
 package projetHopital.model;
 
-public abstract class Compte {
+public class Compte {
 
   private Integer idCompte;
   private String login;
