@@ -14,7 +14,14 @@ public class Context {
 		}
 	}
 	
+	
+	private static DaoPatient daoPatient=new DaoPatientImpl();
+	public static DaoPatient getDaoPatient() {
+		return daoPatient;
+	}
 
+	
+	
 	
 	private static Context singleton=null;
 	
