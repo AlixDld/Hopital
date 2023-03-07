@@ -1,12 +1,12 @@
 package projetHopital.dao;
 
+import java.util.List;
 import projetHopital.model.Compte;
+import projetHopital.model.Patient;
 
 public interface DaoCompte extends DaoGeneric<Compte, Integer> {
-  //pause secrétaire
   //affichage file attente
+  void affichFileAttente(List<Patient> FileAttente);
   //affichage prochain patient
-  //salle dispo
-  //sauvegarder liste visites
-
+  void affichProchainPatient(List<Patient> FileAttente);
 }
