@@ -22,7 +22,7 @@ public class Visite {
     this.numeroVisite = numeroVisite;
     this.patient = patient;
     this.medecin = medecin;
-    this.coutVisite = coutVisite;
+    this.coutVisite = 20;
     this.salle = salle;
     this.dateVisite = dateVisite;
   }
