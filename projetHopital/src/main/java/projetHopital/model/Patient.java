@@ -2,7 +2,7 @@ package projetHopital.model;
 
 public class Patient {
 
-  private Integer idPatient;
+  private Integer idPatient; //auto-increment
   private String nom;
   private String prenom;
 
